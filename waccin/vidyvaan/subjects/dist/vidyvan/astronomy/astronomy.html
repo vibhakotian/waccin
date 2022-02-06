@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="astronomy.css">
+    <link rel="stylesheet" href="../mainstream/navbar.css">
+</head>
+<body>
+     <nav class="nav-collapse" role="navigation">
+        <ul class="tabs primary-nav">
+            <li class="tabs__item">
+                <a href="#" class="tabs__link">Home</a>
+            </li>
+            <li class="tabs__item">
+                <a href="../mainstream/streammain.html" class="tabs__link">Streams</a>
+            </li>
+            
+            <li class="tabs__item">
+                <a href="#" class="tabs__link">Location</a>
+            </li>
+            <li class="tabs__item">
+                <a href="#" class="tabs__link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="card-list">
+	
+	<li class="card">
+		<a class="card-image" href="#" target="" style="background-image: url(https://i.pinimg.com/236x/df/e5/7b/dfe57b007f5122c754bf36f6adb9cfbf.jpg);" data-image-full="https://i.pinimg.com/236x/df/e5/7b/dfe57b007f5122c754bf36f6adb9cfbf.jpg">
+			<img src="" alt="let's go" />
+		</a>
+		
+			<h2>Bsc in Astro-physics</h2>
+		<a class="card-description" href="../astrosub/astrosub/bscastrophysics.html" target=""><p>For more details</p></a>	
+		</a>
+	</li>
+	
+	<li class="card">
+		<a class="card-image" href="#" target="" style="background-image: url(https://i.pinimg.com/236x/d9/13/fd/d913fdaa84038947a4194be16b19f4b8.jpg);" data-image-full="https://i.pinimg.com/236x/d9/13/fd/d913fdaa84038947a4194be16b19f4b8.jpg">
+			<img src="https://i.pinimg.com/236x/d9/13/fd/d913fdaa84038947a4194be16b19f4b8.jpg" alt="let's go" />
+		</a>
+		
+			<h2>B.Tech.Aerospace</h2>
+		<a class="card-description" href="../astrosub/astrosub/btechaerospace.html" target=""><p>For more details </p>
+		</a>
+	</li>
+	<li class="card">
+		<a class="card-image" href="#" target="" style="background-image: url(https://i.pinimg.com/236x/94/86/d3/9486d329af83c6878b9736506aff8706.jpg);" data-image-full="https://i.pinimg.com/236x/94/86/d3/9486d329af83c6878b9736506aff8706.jpg">
+			<img src="https://i.pinimg.com/236x/94/86/d3/9486d329af83c6878b9736506aff8706.jpg" alt="let's go" />
+		</a>
+		
+			<h2>Btech in space and Technology </h2>
+		<a class="card-description" href="../astrosub/astrosub/btechspacetech.html" target=""><p>For more details</p></a>	
+		</a>
+	</li>
+<li class="card">
+	<a class="card-image" href="#" target=""
+		style="background-image: url(https://i.pinimg.com/564x/71/54/03/715403b6087a0d0d73479557fb983aae.jpg);"
+		data-image-full="https://i.pinimg.com/564x/71/54/03/715403b6087a0d0d73479557fb983aae.jpg">
+		<img src="https://i.pinimg.com/564x/71/54/03/715403b6087a0d0d73479557fb983aae.jpg" alt="let's go" />
+	</a>
+
+	<h2>BSc in Astronomy</h2>
+	<a class="card-description" href="../astrosub/astrosub/bscastronomy.html" target="">
+		<p>For more details</p>
+	</a>
+	</a>
+</li>
+<li class="card">
+	<a class="card-image" href="#" target=""
+		style="background-image: url(https://i.pinimg.com/564x/af/44/8f/af448f9a678fc8a1cf90b9e9dd1a5bfa.jpg);"
+		data-image-full="https://i.pinimg.com/564x/af/44/8f/af448f9a678fc8a1cf90b9e9dd1a5bfa.jpg">
+		<img src="https://i.pinimg.com/564x/af/44/8f/af448f9a678fc8a1cf90b9e9dd1a5bfa.jpg" alt="let's go" />
+	</a>
+
+	<h2> BSc in Planetary Science</h2>
+	<a class="card-description" href="../astrosub/astrosub/bscplantery.html" target="">
+		<p>For more details</p>
+	</a>
+	</a>
+</li>
+<li class="card">
+	<a class="card-image" href="#" target=""
+		style="background-image: url(https://i.pinimg.com/236x/c7/54/78/c75478eb3a9a71fc8f9b18ce9d3c52ad.jpg);"
+		data-image-full="https://i.pinimg.com/236x/c7/54/78/c75478eb3a9a71fc8f9b18ce9d3c52ad.jpg">
+		<img src="https://i.pinimg.com/236x/c7/54/78/c75478eb3a9a71fc8f9b18ce9d3c52ad.jpg" alt="let's go" />
+	</a>
+
+	<h2>Btech in Astro-physics</h2>
+	<a class="card-description" href="../astrosub/astrosub/btechastrophy.html" target="">
+		<p>For more details</p>
+	</a>
+	</a>
+</li>
+
+	
+</ul>
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+	
+	// setTimeout to simulate the delay from a real page load
+	setTimeout(lazyLoad, 1000);
+	
+});
+
+function lazyLoad() {
+	var card_images = document.querySelectorAll('.card-image');
+	
+	// loop over each card image
+	card_images.forEach(function(card_image) {
+		var image_url = card_image.getAttribute('data-image-full');
+		var content_image = card_image.querySelector('img');
+		
+		// change the src of the content image to load the new high res photo
+		content_image.src = image_url;
+		
+		// listen for load event when the new photo is finished loading
+		content_image.addEventListener('load', function() {
+			// swap out the visible background image with the new fully downloaded photo
+			card_image.style.backgroundImage = 'url(' + image_url + ')';
+			// add a class to remove the blur filter to smoothly transition the image change
+			card_image.className = card_image.className + ' is-loaded';
+		});
+		
+	});
+	
+}
+
+
+</script>
+</body>
+</html>
